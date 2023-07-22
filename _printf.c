@@ -31,7 +31,7 @@ flags = get_flags(format, &j);
 width = get_width(format, &j, list);
 precision = get_precision(format, &j, list);
 size = get_size(format, &j);
-++i;
+++j;
 printed = handle_print(format, &j, list, buffer,
 flags, width, precision, size);
 if (printed == -1)
