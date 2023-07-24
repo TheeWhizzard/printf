@@ -141,7 +141,7 @@ if (str == NULL)
 str = "(AHYY)";
 for (i = 0; str[i]; i++)
 {
-for (j = 0; in[k]; k++)
+for (k = 0; in[k]; k++)
 {
 if (in[k] == str[i])
 {
